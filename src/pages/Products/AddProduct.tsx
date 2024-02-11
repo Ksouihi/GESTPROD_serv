@@ -7,8 +7,6 @@ import axios from "axios";
 
 
 const AddProduct = () => {
-
-
     const [lines, setLines] = useState<Line[]>([]);
     const [families, setFamilies] = useState<Family[]>([]);
     const [allSubFamilies, setAllSubFamilies] = useState<SubFamily[]>([]);
